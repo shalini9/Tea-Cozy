@@ -16,11 +16,8 @@ header {
   align-items: center;
   border-bottom: 1px solid seashell;
   position: fixed;
+  width: 100%;
   }
-
-.contaier-header {
-  position: fixed;
-}
 
 header .logo {
   display: flex;
@@ -32,4 +29,27 @@ header nav span a {
 display: inline-block;
 padding: 10px;
 text-decoration: underline;
+margin: 0px 7px;
 }
+
+/* Main Section*/
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flowerTea {
+  background-image: url(../images/flowerTea.jpg);
+  width: 1200px;
+  height: 700px;
+}
+
+h2 h4 .flowerTea {
+  align-items: center;
+  }
