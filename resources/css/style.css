@@ -15,7 +15,12 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
+  position: fixed;
   }
+
+.contaier-header {
+  position: fixed;
+}
 
 header .logo {
   display: flex;
