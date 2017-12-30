@@ -18,6 +18,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
+  background-color: black;
   }
 
 header .logo {
@@ -83,4 +84,8 @@ margin: 0px 7px;
 .wrap img {
   height: 200px;
   width: 300px;
+}
+
+.wrap .box {
+  margin-bottom: 60px;
 }
