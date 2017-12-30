@@ -3,6 +3,7 @@ body {
   color: seashell;
   opacity: 0.9;
   font-family: Helvetica;
+  margin: 0;
 }
 
 /*Header & Navigation*/
@@ -17,7 +18,6 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
-  z-index: 10;
   background-color: black;
   }
 
@@ -40,9 +40,9 @@ margin: 0px 7px;
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-  position: relative;
-  z-index: 5;
 }
+
+/*Section 1 */
 
 .section1 {
   display: flex;
@@ -59,6 +59,8 @@ margin: 0px 7px;
   background-color: black;
 }
 
+/*Section 2 */
+
   .section2 {
     display: flex;
     flex-direction: row;
@@ -73,6 +75,9 @@ margin: 0px 7px;
     width: 1000px;
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    align-items: center;
   }
 
 .section2 .wrap {
@@ -84,8 +89,28 @@ margin: 0px 7px;
 .wrap img {
   height: 200px;
   width: 300px;
+  margin: 10px;
 }
 
-.wrap .box {
-  margin-bottom: 60px;
+/*Section 3 */
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  background: url(../images/locationTea.jpg) no-repeat;
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  margin: 20px;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
 }
