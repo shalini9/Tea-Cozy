@@ -125,14 +125,9 @@ margin: 0px 7px;
   opacity: 1;
 }
 
-.location-container .box h4 {
+.location-container .box {
   text-align: center;
 }
-
-.location-container .box p {
-  text-align: center;
-}
-
 
 .section3 .location-heading h2 {
   display: flex;
